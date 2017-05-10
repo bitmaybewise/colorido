@@ -8,4 +8,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/colorido.rb", "lib/colors.csv"]
   s.homepage    = "http://github.com/hlmerscher/colorido"
   s.license     = "MIT"
+  
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
 end
